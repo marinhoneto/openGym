@@ -3495,6 +3495,9 @@ export const PT_BR_OVERRIDES = {
     "Seus webhooks param de enviar enquanto “Integrações” estiver desligado. Continuam configurados.",
   "{0} stops syncing while Health is off. Nothing is disconnected, and it catches up once Health is back.":
     "{0} para de sincronizar enquanto “Saúde” estiver desligado. Nada fica desconectado, e ele se atualiza quando “Saúde” voltar.",
+  Reps: "Repetições",
+  reps: "repetições",
+  "Reps per side": "Repetições por lado",
 };
 
 export default { ...pt, ...PT_BR_OVERRIDES };
