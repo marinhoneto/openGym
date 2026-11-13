@@ -2443,6 +2443,85 @@ export const PT_BR_OVERRIDES = {
   "{0} stops syncing while Health is off. Nothing is disconnected, and it catches up once Health is back.": "{0} para de sincronizar enquanto “Saúde” estiver desligado. Nada fica desconectado, e ele se atualiza quando “Saúde” voltar.",
   'Reps': 'Rep.',
   'reps': 'repetições',
+    '{0} set to rest': 'Dia de descanso definido para {0}',
+  "That's the whole workout!": 'Todos os exercícios concluídos!',
+    'Weight drop (%)': 'Redução da carga (%)',
+  'Finish workout early · {0} exercises': 'Encerrar treino · {0} exercícios concluídos',
+    'Best set weight per workout': 'Maior carga em uma série por treino',
+  'Move, swap and remove below act on the exercise marked {0}.': 'As opções Mover, Trocar e Remover abaixo se aplicam ao exercício marcado como {0}.',
+    'Strong, Hevy, FitNotes, Liftosaur, Fitbod, StrongLifts, JEFIT and more, or body weight from Apple Health': 'Strong, Hevy, FitNotes, Liftosaur, Fitbod, StrongLifts, JEFIT e outros apps, ou dados de peso corporal do app Saúde da Apple',
+
+  'Reps from': 'Repetições a partir de',
+
+  'How hard a set was, logged next to weight and reps. Two scales for the same judgement, counted from opposite ends.': 'O esforço de cada série é registrado junto da carga e das repetições. RIR e RPE avaliam esse esforço em escalas opostas.',
+
+  'by hard sets': 'por séries intensas',
+  'no hard sets': 'sem séries intensas',
+  'No hard sets in this period': 'Nenhuma série intensa neste período',
+  'Hard': 'Intensas',
+
+  'Where the sets land': 'Distribuição das séries por esforço',
+
+  'Bodyweight': 'Peso corporal',
+
+  'For dips or pull-ups with a belt. Progression then follows the weight.': 'Para paralelas ou barras fixas com cinto de carga. A progressão passa a considerar a carga.',
+    'A fresh plan from your answers; your workouts stay': 'Um novo plano com base nas suas respostas; seus treinos continuam salvos',
+
+  'The weight you log is all plates.': 'O peso registrado corresponde apenas às anilhas.',
+
+  'Rest-pause burst': 'Bloco de rest-pause',
+
+  'Record: {0} reps at {1}': 'Recorde: {0} repetições com {1}',
+  'Record: {0} reps': 'Recorde: {0} repetições',
+  'Record: {0} rep at {1}': 'Recorde: {0} repetição com {1}',
+  'Record: {0} rep': 'Recorde: {0} repetição',
+
+  'Max reps': 'Rep. máx.',
+
+  'Longest exercise rest': 'Maior descanso',
+
+  'Name and rest of this superset': 'Nome e descanso deste superset',
+
+  'Without one, the superset rests as long as its longest exercise rest.': 'Sem um descanso definido, o superset usa o maior intervalo de descanso entre seus exercícios.',
+
+  'weight plate': 'anilha',
+    'All sets at the same weight.': 'Todas as séries com a mesma carga.',
+
+  'Weight means': 'O peso informado representa',
+
+  'Workouts and weigh-ins saved to Apple Health': 'Treinos e pesagens salvos no app Saúde da Apple',
+
+  'Rest day. The loop goes on {0}.': 'Dia de descanso. Próxima etapa do ciclo: {0}.',
+
+  'Weight stack': 'Pilha de pesos',
+
+  'The weights this machine really has, odd steps and all. Progression, deloads, warm-ups and the + and − buttons land only on these.': 'As cargas disponíveis nesta máquina, mesmo com incrementos irregulares. A progressão, as reduções de carga, os aquecimentos e os botões + e − usam apenas esses valores.',
+
+  'Lighter weights, and its sessions do not count toward progression.': 'Cargas mais leves. Os treinos desta semana não contam para a progressão.',
+
+  'Workouts and weigh-ins out, heart rate and scale readings in.': 'Treinos e pesagens enviados; frequência cardíaca e dados da balança recebidos.',
+
+  'Finished workouts and weigh-ins go to Apple Health.': 'Treinos concluídos e pesagens são enviados ao app Saúde da Apple.',
+
+  'Finished workouts and weigh-ins go to Health Connect.': 'Treinos concluídos e pesagens são enviados ao Health Connect.',
+
+  'A number of ramp sets': 'Número de séries de aquecimento',
+
+  'Built from your work weight when the workout starts.': 'As séries de aquecimento são calculadas a partir da carga de trabalho ao iniciar o treino.',
+
+  'Each one closes half the gap to the work weight.': 'A cada série, a carga se aproxima da carga de trabalho, reduzindo pela metade a diferença restante.',
+
+  'It pinches, so the sets you have left go to a movement that loads the same muscle from a kinder angle.': 'O movimento está causando desconforto. As séries restantes passam para outro exercício que trabalha o mesmo músculo em um ângulo mais confortável.',
+
+  'Ramped from the work weight: more rungs when it is heavy, fewer when it is light.': 'Aquecimento progressivo calculado pela carga de trabalho: mais etapas para cargas altas e menos para cargas baixas.',
+
+  'Skip the rest of {0}': 'Pular as séries restantes de {0}',
+
+  'These warm-ups come before the work sets every session, as a share of the work weight, so they grow with it.': 'Essas séries de aquecimento vêm antes das séries principais e são calculadas como percentual da carga de trabalho, aumentando junto com ela.',
+
+  '{0}: weight {1}': '{0}: ajuste de carga {1}',
+
+  '{0}: {1} reps a set': '{0}: {1} repetições por série',
 }
 
 export default { ...pt, ...PT_BR_OVERRIDES }
