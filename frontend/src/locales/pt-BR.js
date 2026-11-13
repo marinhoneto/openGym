@@ -2522,6 +2522,119 @@ export const PT_BR_OVERRIDES = {
   '{0}: weight {1}': '{0}: ajuste de carga {1}',
 
   '{0}: {1} reps a set': '{0}: {1} repetições por série',
+    'Change what’s planned on one day': 'Alterar o que está planejado para um dia',
+
+  'Save card': 'Salvar cartão',
+
+  'You have v{0}': 'Sua versão: v{0}',
+
+  'You have the latest version.': 'Você já está usando a versão mais recente.',
+
+  'The web app updates together with your server. The Android app installs its own updates from here.': 'O aplicativo web é atualizado junto com seu servidor. As atualizações do aplicativo Android são instaladas por aqui.',
+
+  '{0} saves to Apple Health on iPhone or Health Connect on Android. openGym reads from there.': '{0} salva os dados no app Saúde da Apple no iPhone ou no Health Connect no Android. O openGym lê os dados dessas plataformas.',
+
+  'Bring data in': 'Importar dados',
+
+  'Get the Android app': 'Baixar o aplicativo para Android',
+
+  'Back to the standard set': 'Restaurar lista padrão de anilhas',
+
+  'Remove drop': 'Remover redução de carga',
+
+  'Remove burst': 'Remover bloco de rest-pause',
+
+  'The server refuses this browser': 'O servidor não permite acesso por este navegador',
+
+  'The server answered with something other than openGym data.': 'O servidor retornou uma resposta que não contém dados válidos do openGym.',
+
+  'Not on iPhone': 'Indisponível no iPhone',
+
+  'iPhone only': 'Disponível apenas no iPhone',
+    'rest day, but no one’s stopping you': 'dia de descanso, mas você pode treinar se quiser',
+
+  'Push, pull and legs each get their own day.': 'Exercícios de empurrar, puxar e pernas em dias separados.',
+
+  'Three sessions, the whole body each time.': 'Três treinos de corpo inteiro.',
+
+  'Week streak': 'Semanas consecutivas',
+
+  'Workout day reminder': 'Lembrete nos dias de treino',
+    'Use this weekly schedule': 'Usar esta programação semanal',
+
+  'Last time means': 'Referência para “da última vez”',
+
+  'A set left at 0 weight starts from that set’s weight last time.': 'Se a carga de uma série estiver em 0, será usada a carga registrada nessa série no treino anterior.',
+
+  'Back online and synced with the server.': 'Conexão restabelecida. Dados sincronizados com o servidor.',
+
+  // Medidas corporais
+  'Fill only what you measured today. Empty fields stay empty.': 'Preencha apenas as medidas feitas hoje. Os campos não preenchidos permanecerão vazios.',
+
+  'That date already has measurements. Edit it instead.': 'Já existem medidas registradas nessa data. Edite o registro existente.',
+
+  'Log measurements': 'Registrar medidas',
+
+  'Every weigh-in of the day counts the same.': 'Todas as pesagens do dia têm a mesma importância no cálculo da média.',
+
+  // Fotografias e histórico
+  'Each photo goes on the day it was taken.': 'Cada foto é associada à data em que foi tirada.',
+
+  '{0} photo knows its day and goes there. The others go on the day below.': 'A data de {0} foto foi identificada automaticamente. As demais serão associadas à data selecionada abaixo.',
+
+  '{0} photos know their day and go there. The others go on the day below.': 'As datas de {0} fotos foram identificadas automaticamente. As demais serão associadas à data selecionada abaixo.',
+
+  // Exercícios substitutos
+  'That’s plenty of backups.': 'Você atingiu o limite de exercícios substitutos.',
+
+  // Integração com a Saúde da Apple
+  'Apple Health': 'Saúde da Apple',
+
+  'Open Apple Health': 'Abrir o app Saúde da Apple',
+
+  'Apple Health permission not granted': 'Permissão de acesso ao app Saúde da Apple não concedida',
+
+  'Could not remove it from Apple Health': 'Não foi possível remover os dados do app Saúde da Apple',
+
+  'openGym reads only while it is open: heart rate for workouts of the last day, weigh-ins of the last 30 days. Older workouts stay as they are.': 'O openGym lê os dados apenas enquanto está aberto: frequência cardíaca dos treinos do último dia e pesagens dos últimos 30 dias. Os treinos mais antigos permanecem inalterados.',
+
+  'Heart rate from your watch fills in each set.': 'A frequência cardíaca registrada pelo relógio é adicionada automaticamente a cada série.',
+
+  'Strong, FitNotes, Hevy CSV, GymMane or an Apple Health export.': 'Strong, FitNotes, arquivo CSV do Hevy, GymMane ou exportação do app Saúde da Apple.',
+
+  // Planejamento e estatísticas
+  'A day off before the next one': 'Um dia de descanso antes do próximo',
+
+  'Stat of the day': 'Estatística do dia',
+
+  'Same as last week, a bit heavier': 'Como na semana passada, com um pouco mais de carga',
+
+  'Three days on the 5×5 routines, a little heavier every week, then a light week to bounce back.': 'Três dias de treino no programa 5×5, com aumento gradual da carga a cada semana e uma semana mais leve para recuperação.',
+
+  'Profile default ({0})': 'Padrão do perfil ({0})',
+
+  'Upper body today?': 'Treino de membros superiores hoje?',
+
+  // Assistente de treino
+  'It hurts, it’s taken, no time, feeling great': 'Dor, equipamento ocupado, falta de tempo ou ótima disposição',
+
+  'One set less keeps the session doable today and still counts.': 'Reduzir uma série facilita concluir o treino de hoje, que continua contando normalmente.',
+
+  // Personalização e recursos adicionais
+  'On all year round. Bold choice.': 'Ativado o ano inteiro. Uma escolha ousada!',
+
+  'Halloween, Christmas and the advent calendar. Spooky, festive, optional.': 'Halloween, Natal e calendário do Advento. Efeitos temáticos opcionais.',
+
+  'Webhooks for Home Assistant and friends, and the MCP server.': 'Webhooks para o Home Assistant e outros serviços, além do servidor MCP.',
+
+  // Atualizações e interface
+  'Download the APK from opengym.ch': 'Baixe o APK em opengym.ch',
+
+  'Default': 'Padrão',
+
+  'Default (auto)': 'Padrão (automático)',
+
+  'Default (none)': 'Padrão (nenhum)',
 }
 
 export default { ...pt, ...PT_BR_OVERRIDES }
